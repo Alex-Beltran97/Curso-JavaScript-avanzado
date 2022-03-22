@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo propio carrito</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <main>
+        <h1>Tienda de guitarras</h1>
+        <div class="container">
+            <article class="product">
+                <h3>Guitarra Gibson</h3>
+                <div class="detail">
+                    <img src="./img/1.jpg" alt="product">
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate animi quam rem expedita vero. Sapiente.</p>
+                        <button class="btn" value="Gibson">Añadir</button>
+                    </div>
+                </div>
+            </article>
+            <article class="product">
+                <h3>Guitarra Fender</h3>
+                <div class="detail">
+                    <img src="./img/2.jpg" alt="product">
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate animi quam rem expedita vero. Sapiente.</p>
+                        <button class="btn" value="Fender">Añadir</button>
+                    </div>
+                </div>
+            </article>
+            <article class="product">
+                <h3>Guitarra Ibanez</h3>
+                <div class="detail">
+                    <img src="./img/3.jpg" alt="product">
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate animi quam rem expedita vero. Sapiente.</p>
+                        <button class="btn" value="Ibanez">Añadir</button>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+    <section class="carrito"></section>
+
+    <template id="template">
+        <div class="element">
+            <div class="component">
+                <img id="imgProduct" src="#" alt="producto">
+                <div>
+                    <h3 id="title">Titulo</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita ex delectus necessitatibus, magni ipsum modi.</p>
+                </div>
+            </div>
+            <div class="result">
+                <p>
+                    Cantidad:
+                    <span id="quantity">1</span>
+                </p>
+                <button id="delete">Retirar</button>
+            </div>
+        </div>
+    </template>
+    <!-- scripts -->
+    <script src="./app.js"></script>
+</body>
+</html>

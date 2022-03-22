@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <main>
+        <h1>Formulario</h1>
+        <form id="form" novalidate>
+            <input
+                class="form__item"
+                type="text" 
+                placeholder="Ingrese su nombre"
+                name="userName"
+                autocomplete="off"
+                required
+                />
+            <p class="errors hidden" id="alertName"></p>
+            <input
+            class="form__item"
+                type="email" 
+                placeholder="Ingrese su correo"
+                name="userEmail"
+                autocomplete="off"
+                required
+                />
+            <p class="errors hidden" id="alertEmail"></p>
+            <input
+            class="form__item"
+                type="password" 
+                placeholder="Ingrese su contraseña"
+                name="userPassword"
+                autocomplete="off"
+                required
+            />
+            <p class="errors hidden" id="alertPassword" ></p>
+            <button class="form__item btn" type="submit">Enviar</button>
+            <p id="result" class="hidden">Usuario registrado con exito!</p>
+        </form>
+        <section id="section">
+            <p id="count">Usuarios registrados: <span>0</span></p>
+            <div class="list">
+            <template id="templateUser">
+                <ul class="user">
+                    <li>Nombre:
+                        <span id="outputName">Alex</span>                    
+                    </li>
+                    <li>Correo: <span id="outputEmail">alex@mail.com</span></li>
+                    <li>contraseñas: <span id="outputPassword">********</span></li>
+                    <li>
+                        <button id="delete">Borrar</button>
+                    </li>
+                </ul>
+            </template>
+            </div>
+        </section>
+    </main>
+    <!-- scripts -->
+    <script src="app.js"></script>
+</body>
+</html> 

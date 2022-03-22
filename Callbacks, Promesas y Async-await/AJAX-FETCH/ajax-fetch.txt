@@ -1,0 +1,55 @@
+fetch sirve para hacer solicitudes AJAX en JavaScript. Se usa para hacer una solicitud a una API.
+
+AJAX = Asincrinic JavaScript and XML (JavaScript asincrono + XML): Esto ya no se usa, ahora todo se implementa por medio de JSON.
+
+AJAX no es una tecnologia por si misma, es un concepto para definir y utlizar un conjunto de tecnologias ya existentes.
+
+En ella se incluye:
+
+    * HTML
+    * CSS
+    * JavaScript
+    * DOM
+    * JSON
+    * XMLHttpRequest (Es el mas antiguo, ahora implementamos Fetch) -> ambos son metodos nativos del navegador.
+
+Cuando las tecnologias anteriormente mencionadas se convinan, a esto se le condidera como un modelo AJAX.
+
+Este modelo nos permite obtener información y actualizar parte del contenido de nuestra web y gracias a ello
+no es necesario viajar a otra URL ni recargar el contenido total de la pagina web.
+
+Se puede usar AXIOS pero no es nativo, se pcupa bastante pero es un servicio externo que se debe instalar o usar por medio de CDN.
+
+
+* HTTP: Protocolo de transferencia de hipertexto. Prtocolo que nos permite realizar peticiones de daos y de recursos.
+
+* ruta (PATH): La ruta que se establece para realizar dicha peticion.
+
+* Metodos HTTP: Usamos estos metodos dependiendo a la peticion que queramos realizar (GET, POST, PUT, PATCH, DELETE).
+
+* Cabeceras (Headers): Son opcionales. Sirven para aportasr información adicional a los servidores.
+
+* Codigos de respuesta: Cada reacción a una petición HTTP podria retornar una respuesta variable dependiendo al estado del servidor o del servicio. Esos errores pueden ser los siguiente:
+
+    * Respuestas informativas (100–199),
+    * Respuestas satisfactorias (200–299),
+    * Redirecciones (300–399),
+    * Errores de los clientes (400–499),
+    * y errores de los servidores (500–599).
+
+* JSON: (JS object notation), Formato basado en texto estandar para representar datos estructurados en la notación de objetos que provee JS. Comunmente se utiliza para transmitir datos en una app web.
+
+Su estructura es similar aun objeto, usualmente una estructura a gran escala en done se anidan varios tipos de datos, e inlcuso objetos anidados.
+
+
+
+
+
+
+
+
+
+
+
+
+

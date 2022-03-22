@@ -1,0 +1,17 @@
+ASYNC/AWAIT:
+
+mejora para esperar la respuesta de una promesa
+
+lo debemos usar en conjunto con los bloques try catch
+
+
+async: define una funcion asincrona
+
+await: espera a la ejecucion dwe la funcion
+
+si en el try/catch llamamos 2 awaits pero los 2 son independientes del otro (aplica para mas cantidades),
+esto no es optimo.
+
+Por lo tanto, si una respuesta no depende de la otra, usamos, promiseAll
+
+

@@ -1,0 +1,103 @@
+Expresiones regulares (a.k.a. RegEx):
+
+Son patrones que se implementan para hacer coincidir caracteres de cadena.
+
+Se usan para realizar vlidaciones tales como:
+
+* Ver que se escriba solo texto
+* Ver que se escriba solo Numeros
+* Ver que se escriba correctamente un correo
+* Etc
+
+Una expresion regular se comopone de dos cosas:
+
+/patron/flag(bandera) 
+
+* El patron: Es el elemento que nosotros vamos a evaluar
+* El flag es una ayuda, sirve para categorizar o filtrar la informacion
+ a resolver.
+
+La mayoria de lenguajes de programación los soporta
+
+--------------------------------------------------------------
+
+La expresion a evaluar se encierra en medio de dos slash.
+
+Ej: /bluuweb/ -> Notacion literal. Significa que en una cadena 
+de caracteres debe aparecer la expresion dada
+
+Tambien se pueden instanciar expresiones regulares por medio de un objeto
+
+Notacion de objeto
+
+se usa encerrando el termino en una constante y llamando la clase 'RegExp'
+en donde se recibira como parametro el patron de evaluacion
+
+const regExpObject = new RegExp('patron');
+
+
+-----------------------------------------------------------------------------
+
+FLAGS:
+
+Existen las siguientes:
+
+* i: Sirve para detectar entre las mayusculas y las minusculas
+
+------------------------------------------------------------------
+
+Metodos RegExp
+
+Estos nos ayudan a evaluar la condicion de nuestro patro. Existen metodos 
+tales como:
+
+* exec()
+* test() - Mas usado
+Metodos de string
+* match()
+* matchAll()
+* replace()
+* replaceAll()
+* search()
+* split()
+
+----------------------------------------------------------------------------
+
+CARACTERES ESPECIALES:
+
+Se utilizan para encontrar palabras. Los metodos que se usan son:
+
+* [] Rango de caracteres: Cualquiera de los caracteres que este 
+dentro del interior de los corchetes sera encontrado.
+
+* | Establecer alternativas: Encuentra ya sea tanto lo que este a la 
+izquierda como lo que este a la derecha del simolo.
+
+----------------------------------------------------------------------------
+
+Algunas de las validaciones que podemos realizar son:
+
+* [0-9] Un digito del 0 al 9.
+* [A-Z] Letra mayuscula de la A a la Z (No se incluyen acentos como la ñ).
+* [a-z] Letra minusculas de la A a la Z (No se incluyen acentos como la ñ).
+* [A-Za-z0-9] Caracteres alfanumericos (Letra mayuscula, minuscula o digito).
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+

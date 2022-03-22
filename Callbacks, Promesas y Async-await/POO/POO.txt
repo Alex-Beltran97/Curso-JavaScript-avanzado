@@ -1,0 +1,75 @@
+POO: Programacion orientada a objetos.
+
+Paradigma para poder trabajar. Lo tienen todos los lenguajes de programacion.
+
+Su esctructura es similar a un objeto literal, adicional contienen metodos.
+
+no se usan arrow fuctions por su falla con this.
+
+Se añade un elemento extra que es el constructor.
+
+
+--------------------------------------------------
+
+* Se debe crear una plantilla del objeto:
+
+La plantilla es la clase en la cual se definiran los atributos y/o metodos que a nivel general, todos los actores del sistema llevan con sigo o tienen en comun. Esta plantilla se ctrea con el proposito de que a futuro nosotros por medio de ella realicemos objetos literales que contengan todas estas caracteristicas y adicionalmente tengan sus propias propiedades y metodos para crear objetos literales con un proposito mas especifico y que heredaran las cualidades de la plantilla/clase.
+
+* protoptipos de objetos:
+
+Mecanismo a traves del cual los  objetos heredans caracteristicas entre si.
+Un objeto prototipo puede heredar de multiples prototipos, esto se conoce como cadenas de prototipos.
+
+Cuando nosotros creamos una instancia de una plantilla/clase, lo que se suele suceder es que como javaScript es un lenguaje basado en prototipos, cada elemento de nuestro programa no solo va a tener las caracteristicas que nosotros le demos, sino que adicional va a tener sobre un nivel mas alto y de forma predefinida, varias funciones que aunque no las tenga de manera interna nuestro elemento creado, estan a disposicion de nostros para su uso. 
+
+En una clase podemos asignar varias propiedades o metodos pero esto no significa que todos los objetos que vayamos a instanciar con esta clase use la mayoria o todas las propiedades/metodos, sin embargo al definirlos estos obligadamente los van a heredar todos los objetos y esto no es optimo, para ello usamos los prototipos. Esto permite que nuestro objeto solo herede lo necesario y se dejara a disposicion el prototipo en caso de que se requera para el uso de cada objeto pero este sera opcional y no se heredara dentro del codigo del objeto instanciado.
+
+//CLASS
+
+Class nos ofrece funciones adicionales como la del constructor que nos permite definir por medio de parametros cada propiedad o sin ellos.
+
+adicionalmente, adiferencia del ejemplo anterior, todos los metodos que tiene la clase no se heredan sino que quedan a disposicion por medio de los prototipos.
+
+//get y setter:
+
+los metodos get y setter son la forma correcta de obtener un dato o de cambbiarlo segun el paradigma orientado a objetos.
+
+
+//Static
+
+Define un metodo estatico en la clase. Estos metodos estaticos son llamados sin necesida de instanciar su clase, por lo tanto, no pueden ser llamados mediante una instancia de clase.
+
+Por lo general, los metodos estaticos se usan para crear funciones de utilidad para una aplicación.
+
+
+//HEREDAR:
+
+Para ello usamos la palabr extends. 
+
+Se usa en declaraciones de clase o expresiones de clase para crear una clase hija.
+
+Cuando llamamos a la misma clase pero le cambiamos su funcion interna en la clase hija, esta se sobreescribe. Como en este caso toma la forma del contexto de la clase hija a esto se le concidera como polimorfismo.
+
+cuando se va eredar el constructor debe tener las ismas propiedades de la clase padre + la nueva propiedad para la clase hija y debajo se le a;ade la funcion super en donde se le debe pasarar las propiedas que van a preservarse por parte de la clase padre.
+
+//Private class fields
+
+Es lo que se utiliza para hacer metodos de forma privada ya que normalmente los metodos que se definen por primera vez vienen ublicos por defecto. Es to podira llegar a denominarse como encapsulamiento.
+
+con esto podemos nosotros usar los metodos pero no podemos acceder a su propiedad.
+
+Esto lo usamos para que el programa no choque el codigo o se extropee entre si
+
+
+
+
+
+
+
+
+
+
+
+
+
+

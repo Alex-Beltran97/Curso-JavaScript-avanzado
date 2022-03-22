@@ -1,0 +1,17 @@
+PROMESA:
+
+Accion en la cual nosotros esperamos a que pase algo, o que suceda o no algo.
+
+Objeto que representa la terminacion o el fracaso de una operacion ascincrona.
+
+por lo general estas promesas se instancian con una funcion que retorna a la promesa pero tambien podemos encontrar funcionaes que den paso de inmediao a instanciar la promesa sin que la funcion retorne la misma
+
+las promesas suelen retornar 2 valores: resolve y reject.
+
+resolve debe retronar la respuesta positiva o el elemento que se requere para mostrar.
+
+El reject, por el contrario, debe retornar el error
+
+para mostrar ambas usualmente usaomos condicionales.
+
+ahora, cuando queremos ejecutar nuestra funcion con la promesa se llama como una funcion cualquiera, pero este debe ir acompa;ado de 2 metoodos: then y catch, en donde then retornara el elemento positivo, mientras que catch se encarga de mostrar el error.

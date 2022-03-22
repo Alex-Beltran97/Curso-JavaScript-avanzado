@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callback</title>
+    <style>
+        *{
+            font-family:Arial, Helvetica, sans-serif
+        }
+
+        li{
+            list-style: none;
+        }
+
+        input{
+            width: 10%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>users
+        <form id="form">
+            <input
+                id="idUser"
+                type="number" 
+                name="idUser"
+                min="0"
+                max="6"
+                placeholder="Ingrese el id"
+                value="1"
+            />
+            <button class="btn" type="submit">Buscar</button>
+        </form>
+        <div class="container">
+            <template id="template">
+                <ul>
+                    <li id="name"></li>
+                    <li id="age"></li>
+                </ul>
+            </template>
+        </div>
+    </h1>
+    <!-- scripts -->
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+FORMULARIOS DE CONTACTO: 
+
+Sirven para enviar información.
+
+Antes de que se envien datos al servidor siempre debemos asegurarnos 
+de que se completen todos los controles del formulario requeridos y en
+ el formulario correcto.
+
+Las validaciones del lado del clinete son mas oara asegurarse de que 
+el usuario ingrese la información de manera correcta.
+
+---------------------------------------------
+
+Existen dos tipos de validacion:
+
+* Validacion de formularios incorporada: 
+
+    Validacion por medio de atributos en HTML.
+
+    Los atributos mas comunes para validacion desde HTML son:
+
+        * required: Indica que el campo debe llenarse de manera
+        obligatoria antes de enviar los datos del formulario.
+
+        * minlength y maxlength: Especifica la longitud minima o maxima 
+        de un string.
+
+        * min y max: Especifica la longitud minima o maxima 
+        de los numeros.
+
+        * pattern: Se implementa para el manejo de expresiones regulares. 
+        Los datos ingresados deben cumplir con la secuencia del patron 
+        que se instancia. (No aplica para <textArea>).
+
+
+    *Submit: Activa la funcion por defecto de HTTP get para envio de datos
+
+
+* Validación con JavaScript:
+
+- Podemos capturar datos por medio de ID por value.
+
+- Podemos capturar datos por medio de QuerySelector.
+
+- Form Data
+
+
+
+

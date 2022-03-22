@@ -1,0 +1,81 @@
+FETCH API:
+
+Proporciona ina interfaz que nos permite recuperar recursos (tambien recursos de la red).
+
+El metodo fetch, toma un argumento, este debe ser la ruta del recurso que vamos a recuperar.
+
+Al ejecutarse de estamanerea, retornara una promesa y esta se resuleve por medio de n 'response', sea correcta o no.
+
+Cuando existe una respuesta, podemos elegir en tre varios metodos para decidir como deseamos visualizar dicha respuesta, 
+o tambien, una forma de poder implementar la misma.
+
+JSON placeholder:
+
+API Que devuelve respuestas.
+
+Se arma de 6 reursos comunes como:
+
+    * Post
+    * Comentarios
+    * albums
+    * fotos
+    * to do's
+    * users
+
+
+
+QUE SON LAS API:
+
+Son interfaces de programacion de aplicaciones.
+
+Cuando nosotros queremos conectar 2 recursos de manera externa (fuera de los servicios creados en nuestra APP)a traves 
+de un estandar.
+
+Nosotros consumimos servicios de codigos prediseñados. En vez de crear estos codigos, existen oecursos ya
+disponibles y de forma sencilla para nuestra disposicion.
+
+Usalmente nosotros podemos usar dos tipos de API's:
+
+    * Las del navegador (Ej: fetch(API),DOM,GPS,CAMARA,etc).
+
+        Las API mas comunes de este tipo son:
+
+                - API para manipular documentos cargados en el navegador.
+                - API que obtienen datos del servidor, comunmente usadas para actualizar pequeñas secciones de una pagina web. (fetch API).
+                - API de audio y video como HTMLMediaElement, la web Audio API, WebRTC. 
+                - API para dibujar y manipular graficos. Las mas populares son 'canvas' y 'WebGL'.
+                - API de dispositivos: geolocalización, notificaciones del sistema, vibración de hardware, etc.
+                - API de alamacenamiento del lado del cliente: Web Storage API (sessionStorage, locarStorage), indexedDB API.
+                
+    * API's de terceros (comentarios de twitter, muro de facebook, historias de Instagram, etc).    
+
+
+QUE ES API REST:
+
+REST (Transferencia de representación de estado): Standar para desarrollo de API's. Paradigma o paso a paso o patron que se implementa para desarrollar este contenido.
+
+Cuando se intenta comunicar front con back a traves de su protocolo HTTP (GET, POST,PUT, DELETE - verbos HTTP) este estandar es util para poder generar este desarrollo y efectiva comunicación de una manera mucho mas optima.
+
+QUE ES RESTFUL:
+
+REST es la idea o concepto, pero si seguimos la implementación y metodologica y nuestra API creada se compone de esto, pasa a ser RESTful.
+
+--------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

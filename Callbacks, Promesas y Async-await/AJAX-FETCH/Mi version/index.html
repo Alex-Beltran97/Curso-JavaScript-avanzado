@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi version API Rick & Morty</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            width: 100%;
+            height: auto;
+            display: grid;
+            place-items: center;
+        }
+
+        .container{
+            margin: 16px;
+            width: 90%;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill,330px);
+            grid-gap: 2.4%;
+            grid-row-gap: 20px;
+            position: relative;
+        }
+
+        .card{
+            width: 250px;
+            height: 300px;
+            border:1px solid black;
+            margin: 12px;
+            background-color: orange;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 8px;
+            overflow: hidden;
+            justify-self: center;
+            box-shadow: 1px 1px 16px black;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        #loading{
+            width: 150px;
+            height: 150px;
+            border: 1px solid lightgrey;
+            display: grid;
+            place-items: center;
+            border-radius: 50%;
+            text-align: center;
+            box-shadow: 1px 1px 16px grey;
+            position: absolute;
+            background-color: white;
+            opacity: 80%;
+            top: 10%;
+            left: 42%;
+        }
+
+</style>
+</head>
+<body>
+    <main class="container">
+    <div id="loading">
+        cargando...
+    </div>
+    </main>
+    <!-- templates -->
+    <template id="template-card">
+        <div class="card">
+            <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="">
+            <h4 id="name">Nombre</h4>
+            <p>Especie</p>
+        </div>
+    </template>
+    <!-- scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
