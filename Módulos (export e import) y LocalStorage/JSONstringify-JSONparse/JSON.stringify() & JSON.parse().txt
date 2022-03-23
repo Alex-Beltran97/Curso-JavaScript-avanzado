@@ -1,0 +1,17 @@
+JSON.stringify() & JSON.parse():
+
+Se utlizan para guardar datos como objetos, arrays entre otros. Anteriomente, vimos que el local storage solo guarda strings pero tambien podemos guardar estos otros tipos de datos, solo que hay que transformarlos.
+
+JSON.stringify():
+
+Convierte un valor javascript a una cadena de texto JSON.
+
+JSON.parse():
+
+Hace lo contrario, transforma un JSON en tipo de elemento JS.
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+LOCALSTORAGE:
+
+Sirve para guardar datos en el navegador. Aqui persisten entre diferentes sesioes de navegacion.
+
+Es similar a sessionstorage pero los datos de local storgae no tienen fecha de expiracion. SessionStorage pierde sus datos al cerrar el navegador.
+
+funciona mediante su palabra clave y se almacena a modo de string
+
+Tiene capacidad de 5MB pero no es problema porque todo se almacena como un string
+
+----------------------------------------------------------------------
+

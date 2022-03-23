@@ -1,0 +1,38 @@
+MODULOS:
+
+Es la forma de comunicarse entre archivos. normalmente se usa (.mjs) pero este no es compatible con muchos navegadores. El que se usa es (.js).
+
+* IIFE (Expresiones de funcion ejecutadas inmediatamente):
+
+Es como dice su deficnicion . funciones que se ejecuta de imediato son necesidad de llamarla posteriormente.
+
+Todo el ecosistema de la funcion solo funcionara dentro de su scope, esto quiere decir que nada sale y nada entra.
+
+----------------------------------
+
+
+*Export e Import:
+
+Metodos en los que viajan los componentes de cada archivo de JS de un lado a otro.
+
+- Exportar: Enviar.
+- Importar: Traer.
+
+En este caso solo llamamos a un solo archivo JS en nuestro HTML pero este debe tener el tipo module. Para ello usamos la palabra reservada Export (exportacion con nombre) para enviar al elemento y desde el otro archivo usamos import para recibor el archivo.
+
+
+*Export default:
+
+Exporta de manera predeterminada. por modulo solo se permite 1.
+
+A diferencia diferencia del export normal, el export default se puede nombra como la varible o funcion en donde este se invoca pero en el modulo en el cual se va a importar alli debemos asignarle un nombre para poder usarlo.
+
+
+*Export con ALIAS:
+
+Se puede renombrar la importacion, usamos la palabra 'as'. 
+------------------------------------------------
+
+
+
+
